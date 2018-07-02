@@ -21,9 +21,13 @@ int main(){
   printf("Die 1: %d\n",n1);
   printf("Die 2: %d\n",n2);
   printf("Total value: %d\n",n1+n2);
+  
   if(n1+n2>7){
-    prntf("You won!\n");
+    // prntf("You won!\n");
+    printf("%s won!\n",name);
   }else{
-    printf("You Lost.\n");
+    //  printf("You Lost.\n");
   }
+  
+  
 }
