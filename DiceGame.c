@@ -9,7 +9,11 @@
 // jgit.sh reset HEAD^ --head
 int main(){
   int n1,n2;
+  char name[20];
   srand(time(NULL));
+  printf("What is your name?\n> ");
+  scanf("%s",name);
+  printf("Hello, %s!\n\n",name);
   printf("Rolling the dice....\n");
 
   n1 = rand()%6 + 1 ;
